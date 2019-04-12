@@ -7,10 +7,13 @@ namespace Event
     {
         static void Main(string[] args)
         {
-            Video _v=new Video("Jomanji");
-            VideoConverter _videoConverter=new VideoConverter(_v);
+         
+         
+            
+            VideoConverter _videoConverter=new VideoConverter(new Video("Jomanji"),new VideoEventArgs());
             SendMessage _sendMessage=new SendMessage();
-            _videoConverter.VideoConverted+=_sendMessage.OnVideoConverted;
+            _videoConverter.VideoConverted+=_sendMessage.SendMail;
+            _videoConverter.VideoConverted+=_sendMessage.Sendsms;
             _videoConverter.DoConvert();
 
             Console.Read();
@@ -18,9 +21,13 @@ namespace Event
     }
     public class SendMessage
     {
-        public void OnVideoConverted(object source,VideoEventArgs e)
+        public void SendMail(object source,VideoEventArgs e)
         {
             System.Console.WriteLine("Mail is sended for video"+e.videoname);
+        }
+           public void Sendsms(object source,VideoEventArgs e)
+        {
+            System.Console.WriteLine("SMS is sended for video"+e.videoname);
         }
     }
 }
