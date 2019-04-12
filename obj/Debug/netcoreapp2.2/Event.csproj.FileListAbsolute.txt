@@ -1,0 +1,11 @@
+E:\VS Code\Event\bin\Debug\netcoreapp2.2\Event.deps.json
+E:\VS Code\Event\bin\Debug\netcoreapp2.2\Event.runtimeconfig.json
+E:\VS Code\Event\bin\Debug\netcoreapp2.2\Event.runtimeconfig.dev.json
+E:\VS Code\Event\bin\Debug\netcoreapp2.2\Event.dll
+E:\VS Code\Event\bin\Debug\netcoreapp2.2\Event.pdb
+E:\VS Code\Event\obj\Debug\netcoreapp2.2\Event.csprojAssemblyReference.cache
+E:\VS Code\Event\obj\Debug\netcoreapp2.2\Event.csproj.CoreCompileInputs.cache
+E:\VS Code\Event\obj\Debug\netcoreapp2.2\Event.AssemblyInfoInputs.cache
+E:\VS Code\Event\obj\Debug\netcoreapp2.2\Event.AssemblyInfo.cs
+E:\VS Code\Event\obj\Debug\netcoreapp2.2\Event.dll
+E:\VS Code\Event\obj\Debug\netcoreapp2.2\Event.pdb
